@@ -176,3 +176,5 @@ docker-compose up -d
 参考
 
 * https://docs.djangoproject.com/ja/3.0/intro/tutorial01/
+* リポジトリは https://github.com/yoshikyoto/InvoiceCruiser-Python-Django
+  * 今回の変更は https://github.com/yoshikyoto/InvoiceCruiser-Python-Django/commit/84389992d677bab9bdaa6778cda5f69b4043a471
