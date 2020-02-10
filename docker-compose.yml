@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    image: invoice-cruiser-app
+    container_name: invoice-cruiser-app
+    ports:
+      - 8000:8000
+    volumes:
+      - ./app:/opt/app
+    command: python manage.py runserver 0.0.0.0:8000
